@@ -11,7 +11,7 @@ html,body {
     color: white;
 }
 
-#main {
+#body {
     height: 100vw;
 }
 
@@ -25,6 +25,7 @@ html,body {
     margin: 32px;
     width: 152px;
     height: 28px;
+    cursor: pointer;
 }
 
 #nav_options {
@@ -35,23 +36,96 @@ html,body {
     font-size: 0.8rem;
 }
 
+#nav_options h3 {
+    cursor: pointer;
+}
+
 #btn_section {
     display: flex;
     align-items: center;
     gap: 36px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
+}
+
+#btn_section h2 {
+    cursor: pointer;
 }
 
 #nav_btn {
-    font-size: 0.8rem;
+    font-size: 0.9rem; 
     text-transform: uppercase;
-    padding: 16px 20px;
+    padding: 18px 24px;
     margin-right: 24px ;
     border: none;
+    background-color: white;
+    color: black;
 }
 
 #nav_btn:hover {
-    background-color: rgb(227, 227, 227);
+    background-color: rgb(230, 230, 230);
     cursor: pointer;
+}
+
+#main {
+    height: 100%;
+}
+
+#section h1 {
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+#section #book_span {
+    background-color: brown;
+    font-size: 52px;
+    padding: 24px 48px;
+    border-radius: 52px;
+    margin: 0 24px;
+    font-weight: 800px;
+    cursor: pointer;
+}
+
+#section #book_span:hover {
+    background-color: rgb(193, 65, 65);
+}
+
+#img1 {
+    height: 240px;
+    width: 212px;
+    border-radius: 12px;
+    left: 4%;
+    top: 16%;
+    position: absolute;
+}
+
+#img2 {
+    height: 240px;
+    width: 212px;
+    border-radius: 12px;
+    right: 4%;
+    bottom: 16%;
+    position: absolute;
+}
+
+#img3 {
+    height: 160px;
+    width: 240px;
+    border-radius: 12px;
+    position: absolute;
+    left: 12%;
+    bottom: 8%;
+    
+}
+
+#scroll_down {
+    font-size: 16px;
+    text-align: center;
+    margin: 54px;
+}
+
+#arrow {
+    font-size: 24px;
 }
